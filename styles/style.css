@@ -16,9 +16,12 @@ body {
 }
 
 div#imagem {
+    background-image: url("../images/pexels-lina-3639540.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: white;
     width: 250px;
-    height: 150px;
+    height: 200px;
     display: block;
     margin: auto;
     margin-top: 50px;
@@ -28,10 +31,19 @@ div#imagem {
 
 div#formulario {
     background-color: white;
-    width: 250px;
+    text-align: center;
+    font-size: 0.5em;
+
+    width: 230px;
     height: 300px;
     display: block;
+
     margin: auto;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    padding: 10px;
+}
+
+div#formulario > p {
+    text-align: justify;
 }
