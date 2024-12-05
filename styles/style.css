@@ -1,11 +1,5 @@
 @charset "UTF-8";
 
-/* 
-    Paleta de cores
-    verde: #016104
-    rosa: #A10048
-*/
-
 * {
     margin: 0px;
     padding: 0px;
@@ -14,7 +8,7 @@
 }
 
 body, html {
-    background-color: #A10048;
+    background-color: #81013b;
     height: 100vh;
     width: 100vw;
 }
@@ -33,7 +27,7 @@ section#login {
 
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 515px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
 
@@ -62,5 +56,58 @@ div#formulario > h1 {
 }
 
 div#formulario > p {
+    font-size: 0.8em;
+}
+
+div.campo > label {
+    display: none;
+}
+
+form > div.campo {
+    background-color: #A10048;
+    width: 100%;
+    height: 40px;
+    display: block;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    font-weight: bolder;
+    width: 100%;
+    height: 40px;
+    background-color:#614f01;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form > input[type=submit]:hover {
+    background-color:  #2b2300;
+    cursor: pointer;
+}
+
+form > a.button {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color:  white;
+    color:  #2b2301;
+    margin-top: 5px;
+    padding-top: 7px;
+    border: 1px solid  #614f01;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+form > a.button:hover{
+    background-color:  #ac8d04;
+}
+
+form > a.button > span {
     font-size: 0.8em;
 }
