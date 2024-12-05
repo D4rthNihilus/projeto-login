@@ -36,6 +36,9 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+
+    transition: width 0.2s, height 0.2s;
+    transition-timing-function: ease;
 }
 
 section#login > div#formulario {
@@ -48,5 +51,7 @@ section > div#imagem {
     background: white url("../images/pexels-lina-3639540.jpg");
     background-size: cover;
     background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     height: 200px;
 }
